@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Poppins", serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: var(--color-dark-imperial-blue);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@theme {
+  --color-dark-imperial-blue: #202c45;
+  --color-ufo-green: #22d172;
+  --color-bermuda: #78dcca;
+
+  /* border */
+  --color-dark-imperial-blue-border: #202c45ce;
+
+  /* paragraph */
+  --color-paragraph: #202c45cf;
+
+  --transition: all 0.28s linear;
+}
