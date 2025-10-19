@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
 import Register from "./components/Register";
 import Login from "./components/Login";
-import LoanPage from "./Pages/LoanPage";
 import { LoaderProvider } from "./context/LoaderContext";
 
 function App() {
@@ -24,10 +23,6 @@ function App() {
         {
           path: "/login",
           element: <Login />,
-        },
-        {
-          path: "/loan",
-          element: <LoanPage />,
         },
       ],
     },

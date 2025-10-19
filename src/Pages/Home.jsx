@@ -1,6 +1,7 @@
 import style from "./Home.module.css";
-import airplane from "../assets/airplane.png";
+// import airplane from "../assets/airplane.png";
 import ceo from "../assets/ceo.png";
+import FileUpload from "../components/FileUpload";
 
 const Home = () => {
   return (
@@ -13,13 +14,13 @@ const Home = () => {
             <span></span>
             <div>
               <h1 className="text-6xl/19 font-extrabold">
-                Welcome To Saylani Microfinance
+                How can we help you!
               </h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the loan.
               </p>
-              <button>Take Your Loan</button>
+              {/* <button>Take Your Loan</button> */}
             </div>
 
             <div className="ceo flex items-center gap-2 mb-5">
@@ -35,7 +36,8 @@ const Home = () => {
             </div>
           </div>
           <div className="sideImage w-[50%]">
-            <img src={airplane} alt="error to load image" />
+            {/* <img src={airplane} alt="error to load image" /> */}
+            <FileUpload></FileUpload>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import registerImg from "../assets/gamil.png";
+// import registerImg from "../assets/gamil.png";
 import apiFetch from "../hooks/apiFetch";
 
 const Register = () => {
@@ -63,7 +63,7 @@ const Register = () => {
             </label>
             <input
               className="outline-none border-2 border-dark-imperial-blue block w-full pl-4 py-2 rounded-full bg-white placeholder:text-dark-imperial-blue-border"
-              type="text"
+              type="number"
               name="cnic"
               onChange={handleChange}
               placeholder="Enter your CNIC"
@@ -77,9 +77,9 @@ const Register = () => {
           </button>
         </div>
       </form>
-      <div className="w-[48%]">
+      {/* <div className="w-[48%]">
         <img src={registerImg} alt="Error to load image" />
-      </div>
+      </div> */}
     </div>
   );
 };

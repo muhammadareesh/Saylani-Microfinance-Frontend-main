@@ -15,11 +15,6 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link to={"/loan"} className="font-semibold ">
-                Loan Calculator
-              </Link>
-            </li>
             <li className="flex gap-4 ml-4">
               <Link
                 to={"/login"}

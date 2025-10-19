@@ -1,4 +1,4 @@
-import loginImg from "../assets/login.png";
+// import loginImg from "../assets/login.png";
 
 const Login = () => {
   return (
@@ -23,7 +23,7 @@ const Login = () => {
             </label>
             <input
               className="outline-none border-2 border-dark-imperial-blue block w-full pl-4 py-2 rounded-full bg-white placeholder:text-dark-imperial-blue-border"
-              type="number"
+              type="password"
               name="password"
               placeholder="Enter your Password"
             />
@@ -33,9 +33,9 @@ const Login = () => {
           </button>
         </div>
       </form>
-      <div className="w-[40%] order-first ">
+      {/* <div className="w-[40%] order-first ">
         <img src={loginImg} alt="Error to load image" />
-      </div>
+      </div> */}
     </div>
   );
 };
